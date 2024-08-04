@@ -14,7 +14,7 @@
 
 <body>
 
-    <a class="home" href="index.html">&nwarr;</a>
+    <a class="home" href="https://github.com/petrifast">Petri's page</a>
 
     <h1>Contents</h1>
 
@@ -32,8 +32,16 @@
     </ol>
 
     <h2 id="about">About</h2>
-    <p> Based on <a href="https://neat.joeldare.com">Neat CSS</a>
+    <p> Based on <a href="https://neat.joeldare.com">Neat CSS</a> </p>
 
+    <h2 id="demo_plot">Demo plot</h2>
+    <div id="myDiv"></div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+    var data = [{x: [1, 2, 3], y: [2, 6, 3]}];
+    Plotly.newPlot('myDiv', data);
+    </script>        
+        
 </body>
 
 </html>
